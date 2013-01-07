@@ -1,0 +1,70 @@
+1
+0
+0
+24
+10
+50
+0
+20
+4
+12
+0
+5
+acf
+.*
+""
+false
+true
+250
+1000
+false
+5
+qSets.txt
+sets/
+5
+bSets.txt
+false
+stats/
+0
+bonus-acf
+1000
+Saajbot
+#penn
+
+irc.slashnet.org
+~
+NOTE: on Linux systems, change \\ to /
+What values correlate to what:
+roundNum = 1;
+roundTime = 0;
+seconds = 0;
+rounds = 30;
+playersPerTeam = 10;
+delay = 60;
+answerTime = 0;
+answerDelay = 12;
+minMVP = 4;
+halftime = 15;
+gameswoReload = 0;
+limwoReload = 3;
+allowedQ = Pattern.compile(".*");
+unallowedQ = Pattern.compile("");
+showCategory = true;
+negs = true;
+setMessageDelay(250);
+breakBtwQ = 5000
+askBySent = false
+numWordsPerLine = 10
+setsFile = "sets\\qSets.txt"
+setsDirectory = "sets\\";
+timeToJoin = 20
+bonusSetsFile = "\\sets\\bSets.txt"
+forceMode = false;
+statsDirectory = "stats\\";
+halftimeLength = 60;
+bSetFile = "bonus-acf";
+breakBtwBonuses = 2000;
+botNick = "BotNickname";
+botChannel = "#botChannel";
+botPass = "PutPasswordHere";
+botServer = "irc.slashnet.org";
